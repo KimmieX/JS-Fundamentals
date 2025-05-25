@@ -1,5 +1,6 @@
 const x = process.argv[2];
-let count = parseInt(x);
+const count = parseInt(x);
+
 if (isNaN(count) || count <= 0) {
     console.log("Missing number of occurrences");
 } else {
